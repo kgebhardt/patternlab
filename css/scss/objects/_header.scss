@@ -7,11 +7,11 @@
 
 .logo {
 	float: left;
-	max-width: 8rem;
+	max-width: 9rem;
 	margin: 0.4rem;
 
 	@media all and (min-width: $bp-med) {
-		max-width: 9rem;
+		max-width: none;
 	}
 }
 
