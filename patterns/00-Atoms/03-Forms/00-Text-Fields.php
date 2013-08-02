@@ -16,6 +16,11 @@
         <input id="password" type="email" placeholder="name@email.com">
     </div>
     <div class="field-container">
+        <label for="street">Straße</label>
+        <input class="three-forth" id="street" type="text" placeholder="Straßenname">
+        <input class="forth" id="street-number" type="text" placeholder="Nr.">
+    </div>
+    <div class="field-container">
         <label for="search">Search</label>
         <input id="search" type="search" placeholder="Enter Search Term">
     </div>

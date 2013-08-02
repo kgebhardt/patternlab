@@ -287,9 +287,21 @@ button, input, select, textarea {
   margin: 0; }
 
 input, textarea {
-  width: 100%;
   border: 1px solid gray;
-  padding: 0.5rem 0.65rem; }
+  padding: 0.5rem 0.65rem;
+  margin-bottom: 0.5rem;
+  width: 80%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+  input.half, textarea.half {
+    width: 40%; }
+  input.forth, textarea.forth {
+    width: 20%; }
+  input.three-forth, textarea.three-forth {
+    width: 60%; }
+  @media all and (max-width: 39.8em) {
+    input, textarea {
+      width: 100% !important; } }
 
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
   -webkit-appearance: none; }

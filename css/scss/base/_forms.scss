@@ -29,9 +29,28 @@ button, input, select, textarea {
 }
 
 input, textarea {
-	width: 100%;
 	border: 1px solid $gray;
 	padding: $pad-half 0.65rem;
+    margin-bottom: $pad-half;
+    width: 80%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+    &.half {
+        width: 40%;
+    }
+
+    &.forth {
+        width: 20%;
+    }
+
+    &.three-forth {
+        width: 60%;
+    }
+
+    @media all and (max-width: $bp-small-3) {
+        width: 100% !important;
+    }
 }
 
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
@@ -96,7 +115,7 @@ input[type="search"]::-webkit-search-decoration {
 	@media all and (min-width: $bp-med) {
 		width: 82%;
 
-	} 
+	}
 	
 	fieldset, .inline-container {
 		position: relative;
