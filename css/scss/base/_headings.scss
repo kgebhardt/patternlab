@@ -1,35 +1,41 @@
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 h1, .alpha   {
+    font-family: $font-secondary;
     font-size: $font-size-xlarge;
     font-weight: normal;
 	line-height: 1.5;
 }
 
 h2, .beta    {
+    font-family: $font-secondary;
     font-size: $font-size-large;
     font-weight: normal;
 	line-height: 1.5;
 }
 
 h3, .gamma   {
+    font-family: $font-secondary;
     font-size: $font-size-slightly-larger;
     font-weight: normal;
 	line-height: 1.5;
 }
 
 h4, .delta   {
+    font-family: $font-secondary;
     font-size: $font-size-m;
     line-height: 1.5;
 	
 }
 
 h5, .epsilon {
+    font-family: $font-secondary;
     font-size: $font-size-slightly-smaller;
     line-height: 1.5;
 }
 
 h6, .zeta    {
+    font-family: $font-secondary;
     font-size: $font-size-slightly-smaller;
     line-height: 1.5;
 }

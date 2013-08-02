@@ -19,17 +19,17 @@ dl {
     width: 100%;
 }
 
-/* todo: media queries here */
 
 dt {
     clear: both;
+    display: table-cell;
     float: left;
-	font-weight: bold;
-    width: 15%;
+    font-weight: bold;
+    padding: $space-half 0;
+    width: 30%;
 }
 
 dd {
-    float: right;
-	margin-left: 0;
-    width: 85%;
+    display: table-cell;
+    padding: $space-half 0 $space-half $space-half;
 }

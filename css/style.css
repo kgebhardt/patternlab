@@ -152,29 +152,35 @@ a {
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 h1, .alpha {
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
   font-size: 200%;
   font-weight: normal;
   line-height: 1.5; }
 
 h2, .beta {
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
   font-size: 150%;
   font-weight: normal;
   line-height: 1.5; }
 
 h3, .gamma {
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
   font-size: 125%;
   font-weight: normal;
   line-height: 1.5; }
 
 h4, .delta {
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5; }
 
 h5, .epsilon {
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
   font-size: 87.5%;
   line-height: 1.5; }
 
 h6, .zeta {
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
   font-size: 87.5%;
   line-height: 1.5; }
 
@@ -225,17 +231,17 @@ dl {
   margin: 0 0 1rem;
   width: 100%; }
 
-/* todo: media queries here */
 dt {
   clear: both;
+  display: table-cell;
   float: left;
   font-weight: bold;
-  width: 15%; }
+  padding: 0.5rem 0;
+  width: 30%; }
 
 dd {
-  float: right;
-  margin-left: 0;
-  width: 85%; }
+  display: table-cell;
+  padding: 0.5rem 0 0.5rem 0.5rem; }
 
 /*------------------------------------*\
     $MEDIA ELEMENTS
