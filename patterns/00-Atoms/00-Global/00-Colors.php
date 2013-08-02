@@ -10,9 +10,9 @@
 		<span class="sg-label">#715E4D</span>
 	</li>
 	<li>
-		<span class="sg-swatch" style="background: #5F4F69;"></span>
+		<span class="sg-swatch" style="background: #A5966F;"></span>
 		<span class="sg-variable">$color-link</span>
-		<span class="sg-label">#5F4F69</span>
+		<span class="sg-label">#A5966F</span>
 	</li>
 	<li>
 		<span class="sg-swatch" style="background: #A5966F;"></span>
