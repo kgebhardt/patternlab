@@ -1,1 +1,1 @@
-<img src="<?php echo $absolutePath; ?>images/ajax-loader.gif" alt="Loading" />
+<img src="<?php echo $absolutePath; ?>images/loader.gif" alt="Loading" />

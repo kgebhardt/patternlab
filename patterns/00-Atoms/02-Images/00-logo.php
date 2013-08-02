@@ -1,1 +1,1 @@
-<a href="#"><img src="<?php echo $absolutePath; ?>images/logo.png" class="logo" alt="Logo" /></a>
+<a href="#"><img src="http://www.tierheim-wuerzburg.de/img/web/logo_cut.png" class="logo" alt="Logo" /></a>
