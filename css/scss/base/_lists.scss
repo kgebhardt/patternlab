@@ -1,19 +1,35 @@
 ol, ul {
 	margin: 0;
-	padding: 0;
+	padding: $space-half 0 0 0;
 	list-style: none;
+}
+
+li {
+    padding: 0 0 $space-half 0;
+
+    &:last-child {
+        padding: 0;
+    }
 }
 
 /* Definition Lists */
 dl {
 	overflow: hidden;
 	margin: 0 0 $space;
+    width: 100%;
 }
 
+/* todo: media queries here */
+
 dt {
+    clear: both;
+    float: left;
 	font-weight: bold;
+    width: 15%;
 }
 
 dd {
+    float: right;
 	margin-left: 0;
+    width: 85%;
 }

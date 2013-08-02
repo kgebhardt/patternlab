@@ -1,6 +1,8 @@
 body {
 	background: $white;
-	font: 100%/1.5 $font;
+    color: $color-font;
+	font-family: $font;
+    font-size: $font-size;
+    line-height: 1.2;
 	-webkit-text-size-adjust: 100%;
-	color: $gray-dark;
 }

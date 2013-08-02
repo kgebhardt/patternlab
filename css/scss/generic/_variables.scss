@@ -26,21 +26,23 @@ $brand-linkedin: #217bc1;
 
 $color-font: #4c3e3d;
 $color-headline: #715E4D;
-$color-link: #5F4F69;
+$color-link: #A5966F;
 $color-border: #A5966F;
 $bg-color-button: #FFFD93;
 $bg-color-button-hover: #D1C078;
 $bg-color-button-dark: #505D75;
 
 //Typography
-$font : Arial, Verdana, Helvetica, Geneva, sans-serif;
-$font-secondary : 'Capriola', Arial, Verdana, Helvetica, Geneva, sans-serif;
+$font: Arial, Verdana, Helvetica, sans-serif;
+$font-secondary: 'Capriola', Arial, Verdana, Helvetica, sans-serif;
 
-$font-size-norm : 1em;
-$font-size-slightly-larger : 1.0625em;
-$font-size-slightly-smaller : 0.875em;
-$font-size-sm : 0.75em;
-$font-size-large : 1.4375em;
+$font-size : 87.5%;
+$font-size-slightly-larger : 125%;
+$font-size-slightly-smaller : 87.5%;
+$font-size-sm : 75%;
+$font-size-m : 100%;
+$font-size-large : 150%;
+$font-size-xlarge : 200%;
 
 //Layout
 $max-width: 82rem;

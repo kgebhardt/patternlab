@@ -129,33 +129,53 @@ header, footer, nav, section, article, hgroup, figure {
 
 body {
   background: white;
-  font: 100%/1.5 Arial, Verdana, Helvetica, Geneva, sans-serif;
-  -webkit-text-size-adjust: 100%;
-  color: #333333; }
+  color: #4c3e3d;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 87.5%;
+  line-height: 1.2;
+  -webkit-text-size-adjust: 100%; }
 
 /* Links */
 a {
-  color: #333333;
+  color: #a5966f;
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: gray; }
+    color: #8a7c57; }
 
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 h1, .alpha {
-  line-height: 1.2; }
+  font-size: 200%;
+  font-weight: normal;
+  line-height: 1.5; }
 
 h2, .beta {
-  line-height: 1.2; }
+  font-size: 150%;
+  font-weight: normal;
+  line-height: 1.5; }
 
 h3, .gamma {
-  line-height: 1.2; }
+  font-size: 125%;
+  font-weight: normal;
+  line-height: 1.5; }
+
+h4, .delta {
+  font-size: 100%;
+  line-height: 1.5; }
+
+h5, .epsilon {
+  font-size: 87.5%;
+  line-height: 1.5; }
+
+h6, .zeta {
+  font-size: 87.5%;
+  line-height: 1.5; }
 
 /* Subheadings */
 .subheading {
-  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif;
-  font-weight: normal; }
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
+  font-style: italic; }
 
 /* Text-Related Elements */
 p {
@@ -173,28 +193,43 @@ blockquote {
 hr {
   border: 0;
   height: 2px;
-  background: #eeeeee;
-  margin: 2rem 0; }
+  background: #e0dbcd;
+  margin: 1.5rem 0; }
 
 abbr {
   border-bottom: 1px dotted gray;
   cursor: help; }
 
+kbd, code, samp {
+  font-size: 125%; }
+
 ol, ul {
   margin: 0;
-  padding: 0;
+  padding: 0.5rem 0 0 0;
   list-style: none; }
+
+li {
+  padding: 0 0 0.5rem 0; }
+  li:last-child {
+    padding: 0; }
 
 /* Definition Lists */
 dl {
   overflow: hidden;
-  margin: 0 0 1rem; }
+  margin: 0 0 1rem;
+  width: 100%; }
 
+/* todo: media queries here */
 dt {
-  font-weight: bold; }
+  clear: both;
+  float: left;
+  font-weight: bold;
+  width: 15%; }
 
 dd {
-  margin-left: 0; }
+  float: right;
+  margin-left: 0;
+  width: 85%; }
 
 /*------------------------------------*\
     $MEDIA ELEMENTS
@@ -273,7 +308,7 @@ input[type="search"]::-webkit-search-decoration {
 .inline-form fieldset, .inline-form .inline-container {
   position: relative; }
 .inline-form input[type=submit], .inline-form button, .inline-form .btn {
-  font-size: 0.875em;
+  font-size: 87.5%;
   padding: 0.65rem 1.3rem;
   background: #333333;
   position: absolute;
@@ -635,18 +670,20 @@ td {
 \*------------------------------------*/
 /* Global Font Classes */
 .font-secondary {
-  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif; }
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif; }
 
 .intro {
-  font-size: 1.0625em;
+  font-size: 125%;
   font-weight: bold; }
 
 .pullquote {
-  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif;
-  font-size: 1.4375em; }
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
+  font-size: 150%; }
 
 .text a {
-  text-decoration: underline; }
+  text-decoration: none; }
+  .text a:hover, .text a:active {
+    text-decoration: underline; }
 .text ul {
   list-style: disc;
   margin: 0 0 1rem 1.2em; }
@@ -993,7 +1030,7 @@ td {
 .acc-handle {
   background: #131313;
   color: white;
-  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif;
+  font-family: "Capriola", Arial, Verdana, Helvetica, sans-serif;
   font-weight: bold;
   display: block;
   position: relative;
@@ -1041,7 +1078,7 @@ td {
   font-size: 2.5em; }
 
 .byline {
-  font-size: 0.875em;
+  font-size: 87.5%;
   font-style: italic;
   margin-bottom: 0.5rem; }
 
@@ -1086,7 +1123,7 @@ td {
     margin-bottom: 0.5rem; }
 
 .comment-name {
-  font-size: 0.75em; }
+  font-size: 75%; }
 
 .comment-text {
   margin-left: 9em; }

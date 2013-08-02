@@ -1,10 +1,10 @@
 /* Links */ 
 a {
-	color: $gray-dark;
+	color: $color-link;
 	text-decoration: none;
 	outline: 0;
 	
 	&:hover, &:focus {
-		color: $gray;
+		color: darken($color-link, 10);
 	}
 }

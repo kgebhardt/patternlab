@@ -16,11 +16,15 @@ blockquote {
 hr {
 	border: 0;
     height: 2px;
-    background: $gray-light-2;
-    margin: $space-double 0;
+    background: lighten($color-border, 30);
+    margin: $space-and-half 0;
 }
 
 abbr {
     border-bottom: 1px dotted $gray;
     cursor: help;
+}
+
+kbd, code, samp {
+    font-size: $font-size-slightly-larger;
 }
