@@ -270,7 +270,7 @@ html, body {
 .sg-input {
   margin: -2px 0 0 0;
   padding: 0;
-  border: 1px solid #222;
+  border: 1px solid #222222;
   background-color: #222;
   color: gray;
   width: 35px;
@@ -469,7 +469,7 @@ html, body {
     @media all and (min-width: 30em) {
       .sg-colors li {
         float: left;
-        width: 5em; } }
+        width: 10%; } }
 
 .sg-swatch {
   display: block;
