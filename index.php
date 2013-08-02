@@ -9,6 +9,7 @@
     <title>Pattern Lab</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
+    <link href='http://fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="styleguide/css/styleguide.css" media="all" />
     <link rel="stylesheet" href="styleguide/css/annotations.css" media="all" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>

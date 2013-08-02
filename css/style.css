@@ -122,14 +122,14 @@ header, footer, nav, section, article, hgroup, figure {
     display: none; } }
 
 .valid {
-  color: #089e00; }
+  color: #8eb838; }
 
 .error {
-  color: red; }
+  color: #87302e; }
 
 body {
   background: white;
-  font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font: 100%/1.5 Arial, Verdana, Helvetica, Geneva, sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #333333; }
 
@@ -154,7 +154,7 @@ h3, .gamma {
 
 /* Subheadings */
 .subheading {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif;
   font-weight: normal; }
 
 /* Text-Related Elements */
@@ -301,10 +301,10 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Validation */
 .has-error {
-  border-color: red; }
+  border-color: #87302e; }
 
 .is-valid {
-  border-color: #089e00; }
+  border-color: #8eb838; }
 
 /*------------------------------------*\
     $SPECIFIC FORMS
@@ -635,14 +635,14 @@ td {
 \*------------------------------------*/
 /* Global Font Classes */
 .font-secondary {
-  font-family: Georgia, Times, "Times New Roman", serif; }
+  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif; }
 
 .intro {
   font-size: 1.0625em;
   font-weight: bold; }
 
 .pullquote {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif;
   font-size: 1.4375em; }
 
 .text a {
@@ -993,7 +993,7 @@ td {
 .acc-handle {
   background: #131313;
   color: white;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Capriola", Arial, Verdana, Helvetica, Geneva, sans-serif;
   font-weight: bold;
   display: block;
   position: relative;
