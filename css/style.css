@@ -51,6 +51,12 @@ html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, 
 header, footer, nav, section, article, hgroup, figure {
   display: block; }
 
+@font-face {
+  font-family: 'Capriola';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Capriola Regular"), local("Capriola-Regular"), url(http://themes.googleusercontent.com/static/fonts/capriola/v1/uuDFYyWaIr7gMYVZu_PK5fesZW2xOQ-xsNqO47m55DA.woff) format("woff"); }
+
 /*------------------------------------*\
     $GLOBAL ELEMENTS
 \*------------------------------------*/
